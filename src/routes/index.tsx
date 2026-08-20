@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import FuzzyText from "@/components/FuzzyText";
-import logoAsset from "@/assets/gmi-logo.png.asset.json";
-import videoAsset from "@/assets/gmi-animation.mp4.asset.json";
+import logoUrl from "@/assets/gmi-logo.png";
+import videoUrl from "@/assets/gmi-animation.mp4";
 
 const TITLE = "GMI Tech — Website Under Maintenance";
 const DESCRIPTION =

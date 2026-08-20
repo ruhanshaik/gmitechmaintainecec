@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
 
 function Maintenance() {
   return (
-    <div className="flex h-[100dvh] w-full flex-col overflow-hidden bg-background text-foreground">
+    <div className="flex h-[100dvh] w-full flex-col overflow-hidden bg-white text-foreground">
       <header className="grid shrink-0 grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-[clamp(1rem,4vw,3.5rem)] py-[clamp(0.75rem,2vh,1.5rem)]">
         <div className="flex min-w-0 items-center gap-3">
           <img

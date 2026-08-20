@@ -114,7 +114,7 @@ function Maintenance() {
           <section className="order-1 flex min-w-0 justify-center lg:order-2 lg:justify-end">
             <video
               src={videoAsset.url}
-              className="aspect-square h-auto w-full max-w-[min(100%,clamp(180px,34vh,460px))] rounded-2xl object-contain"
+              className="aspect-square h-auto w-full max-w-[min(100%,clamp(180px,46vh,480px))] rounded-2xl object-contain"
               autoPlay
               muted
               loop

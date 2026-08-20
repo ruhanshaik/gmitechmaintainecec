@@ -29,7 +29,7 @@ function Maintenance() {
       <header className="grid shrink-0 grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-[clamp(1rem,4vw,3.5rem)] py-[clamp(0.75rem,2vh,1.5rem)]">
         <div className="flex min-w-0 items-center gap-3">
           <img
-            src={logoAsset.url}
+            src={logoUrl}
             alt="GMI Tech logo"
             width={44}
             height={44}
@@ -113,7 +113,7 @@ function Maintenance() {
 
           <section className="order-1 flex min-w-0 justify-center lg:order-2">
             <video
-              src={videoAsset.url}
+              src={videoUrl}
               className="aspect-square h-auto w-full max-w-[min(100%,clamp(180px,42vh,440px))] object-contain"
               autoPlay
               muted
